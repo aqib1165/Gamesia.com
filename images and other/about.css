@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    background-color: black;
+  
+}
+
+h1 {
+    color: white;
+    font-family:'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
+    ;
+}
+
+#gun {
+    color: white;
+    margin: 30px;
+    padding: auto;
+    font-family:'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
+    ;
+}
+
+.white1 {
+    color: white;
+    margin: 30px;
+    padding: auto;
+    font-family:'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
+    ;
+}
+
+h2 {
+    color: white;
+    font-family:'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
+    ;
+}
+img{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}

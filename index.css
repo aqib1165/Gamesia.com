@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --main-bg-color: black;
+    --main-text-color: white;
+    --base-varient: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif; /* Correctly apply the imported font */
+}
+
+header {
+    background-color: var(--main-bg-color);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: var(--main-text-color);
+    margin: 0 30px; /* Adjusted margin for spacing */
+    text-decoration: none;
+}
+
+.container {
+    height: auto; /* Changed from min-height to height */
+    padding: 20px; /* Keep padding for spacing */
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    height: 30px; /* Ensure footer height is defined */
+}
+
+.footer {
+    margin: auto;
+    width: 9.5px; /* Consider adjusting this width */
+    color: var(--main-text-color);
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 25vh;
+    margin: 10px;
+}
+
+nav ul li a:hover {
+    color: var(--main-text-color);
+    font-style: bold italic;
+    font-size: large;
+}
+
+.proggres {
+    background-color: red;
+    height: 3px;
+    animation: load 1s ease-in-out;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 40vw;
+    }
+    100% {
+        width: 100vw;
+    }
+}
+
+#content {
+    display: none;
+    padding: 20px;
+}
+
+.shirt {
+    align-items: center;
+    display: flex;
+    margin: 20px; /* Adjusted margin */
+    padding: 20px; /* Adjusted padding */
+}
+
+li {
+    margin: 30px;
+    padding: 30px;
+    width: auto;
+
+
+
+    
+}
+.slider-container {
+    width: 899px;
+    position: relative;
+    margin: auto;
+    top: 31px;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+.slider {
+    width: 100%; /* Ensure the slider takes up the full container width */
+    display: flex; /* Arrange slides in a row */
+}
+
+.slide {
+    width: 100%; /* Ensure each slide takes up the full slider width */
+    flex-shrink: 0; /* Prevent slides from shrinking */
+    position: relative;
+}
+
+.slide img {
+    width: 100%; /* Ensure images scale to fit the slide */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+}
+
+.prev {
+    left: 0;
+    height: 51px;
+    align-items: center;
+    display: flex;
+}
+
+.next {
+    right: 0;
+    height: 51px;
+    align-items: center;
+    display: flex;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.ice {
+    background-color: transparent;
+    width: 40px;
+    height: auto;
+    font-style: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.signin-button {
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* .box-container {
+
+    border-radius: 8px;
+    height: 228px;
+    width: 352px;
+    margin: 41px;
+
+} */
+       .box {
+        border: 2px solid #00ffff;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        height: 240px;
+        width: 352px;
+        margin: 41px;
+        
+    }
+
+    .box::before,
+    .box::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #00ffff;
+        top: -10px;
+        left: -10px;
+        z-index: -1;
+    }
+
+    .box::after {
+        top: 10px;
+        left: 10px;
+    }
+
+
+.color{
+    color: #ff4444 /* Text color */
+    
+}
+
+
+
+.tom {
+    align-items: center;
+    display: flex;
+    margin: 4px;
+    padding: -8px;
+}
+
+.yellow {
+    list-style: none;
+    text-decoration: none;
+    margin: 4px;
+    padding: -8px; /* Changed from -8px to 0 */
+    width: auto;
+}
+
+
+  #nest{
+    /* width: 349px;
+    height: 109px; */
+    width: 327px;
+    height: 216px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: -8px;
+  }
+  #aunt{
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    font-family: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" ;
+  }
+ #mom{
+  list-style: none;
+  text-decoration: none;
+ }
+#bat{
+  /* width: 349px;
+  height: 109px; */
+  width: 327px;
+  height: 216px;
+  list-style: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: -8px;
+}
+ #dad{
+  list-style: none;
+  text-decoration: none;
+ }
+ #ball{
+  /* width: 349px;
+  height: 109px; */
+  width: 327px;
+  height: 216px;
+  list-style: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: -8px;
+ }
+ #uncle{
+  text-decoration: none;
+  font-family:"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" ;
+ }
+#super{
+  /* width: 349px;
+  height: 109px; */
+  width: 327px;
+  height: 216px;
+  list-style: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: -8px;
+}
+#father{
+  list-style: none;
+  text-decoration: none;
+}
+#loser{
+    width: 327px;
+    height: 216px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: -8px;
+}
+#mother{
+  list-style: none;
+  text-decoration: none;
+}
+#rat{
+    width: 327px;
+    height: 216px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: -8px;
+}
+
+
+.back-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  
+    
+}
+.content{
+    position: relative;
+}
+
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.tom {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.tom.visible {
+    opacity: 1;
+    transform: translateY(0);
+} 
+/* .jack{
+    position: relative; 
+    display: inline-block;
+}
+     */
+     .jack{
+        z-index: -1;
+     }
+.cube{
+    position: absolute;
+    bottom: 20px;
+}
+#category{
+    margin: 56px;
+    width: 98px;
+    align-items: center;
+    display: flex
+;
+}
+/* .sonic{
+    color: var(--main-text-color);
+    margin: 0 30px;
+    text-decoration: none;
+} */
